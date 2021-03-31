@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/index.css" rel="stylesheet" type="text/css"/>
+        <title> Disclaimer </title>
+    </head>
+    <body style="margin: 0;
+ background: rgba(26, 26, 26, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="index"/>
+        <div class="bp3-indexmobile anima-word-break ">
+            <div class="bp3-group-layout-container">
+                <div class="bp3-group">
+                    <img alt="Image" anima-src="./img/indexmobile-zeichnungend-of-the-wartbg10a@2x.png" class="bp3-zeichnungendofthewartbg10a" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp3-endofwar">
+                        END OF WAR
+                    </div>
+                </div>
+            </div>
+            <div class="bp3-a75jahrekriegsende-layout-container">
+                <div class="bp3-a75jahrekriegsende">
+                    75 Jahre Kriegsende am 8. Mai
+                </div>
+            </div>
+            <a href="datenschutzerklrung.html">
+                <div class="bp3-beimklickenakzepti">
+                    <span class="bp3-span1">Beim Klicken akzeptieren sie unsere </span><span class="bp3-span2">Datenschutzerklärung</span><span class="bp3-span3"> und </span><span class="bp3-span4">Cookie-Bestimmungen</span><span class="bp3-span5">.</span>
+                </div>
+            </a>
+        </div>
+        <div class="bp2-indextablet anima-word-break ">
+            <div class="bp2-beimklickenakzepti-layout-container">
+                <a class="anima-full-height-a" href="datenschutzerklrung.html">
+                    <div class="bp2-beimklickenakzepti">
+                        <span class="bp2-span1">Beim Klicken akzeptieren sie unsere </span><span class="bp2-span2">Datenschutzbedingungen</span><span class="bp2-span3"> und </span><span class="bp2-span4">Cookie-Bestimmungen</span><span class="bp2-span5">, sowie das Abspielen von Musik.</span>
+                    </div>
+                </a>
+            </div>
+            <div class="bp2-group-layout-container">
+                <div class="bp2-group">
+                    <img alt="Image" anima-src="./img/indextablet-zeichnungend-of-the-wartbg10a.png" class="bp2-zeichnungendofthewartbg10a" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp2-endofwar">
+                        END OF WAR
+                    </div>
+                </div>
+            </div>
+            <div class="bp2-a75jahrekriegsende-layout-container">
+                <div class="bp2-a75jahrekriegsende">
+                    75 Jahre Kriegsende am 8. Mai
+                </div>
+            </div>
+        </div>
+        <div class="bp1-index anima-word-break ">
+            <div class="bp1-a75jahrekriegsende-layout-container">
+                <div class="bp1-a75jahrekriegsende">
+                    75 Jahre Kriegsende am 8. Mai
+                </div>
+            </div>
+            <img alt="Image" anima-src="./img/index-group@2x.png" class="bp1-group" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            <div class="bp1-beimklickenakzepti-layout-container">
+                <a class="anima-full-height-a" href="datenschutzerklrung.html">
+                    <div class="bp1-beimklickenakzepti">
+                        <span class="bp1-span1">Beim Klicken akzeptieren sie unsere </span><span class="bp1-span2">Datenschutzbedingungen</span><span class="bp1-span3"> und </span><span class="bp1-span4">Cookie-Bestimmungen</span><span class="bp1-span5">, sowie das Abspielen von Musik.</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            document.addEventListener("click", function(){
+                window.location.href = "https://achter-mai.web.app/rede.html";
+               
+            });
+            </script>            
+        <script>
+
+function msieversion() {
+
+var ua = window.navigator.userAgent;
+var msie = ua.indexOf("MSIE ");
+
+if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+{
+    window.location.href= "deploy.html";
+}
+else  // If another browser, return 0
+{
+    
+}
+
+return false;
+}
+
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCsuMdGQp2RogI1Seh2njktASIZSbkMtyw",
+    authDomain: "achter-mai.firebaseapp.com",
+    databaseURL: "https://achter-mai.firebaseio.com",
+    projectId: "achter-mai",
+    storageBucket: "achter-mai.appspot.com",
+    messagingSenderId: "910811487781",
+    appId: "1:910811487781:web:61f8ac7750f2320aeb69cc",
+    measurementId: "G-TRV5VZ43L5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+        <!-- End of Scripts -->
+    </body>
+</html>

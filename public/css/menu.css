@@ -1,0 +1,1162 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400');
+
+@font-face {
+                          font-family: "Inter-Regular";
+                          src: url('../fonts/Inter-Regular.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Inter-LightBETA";
+                          src: url('../fonts/Inter-Light-BETA.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "PlayfairDisplay-Medium";
+                          src: url('../fonts/PlayfairDisplay-Medium.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Inter-Medium";
+                          src: url('../fonts/Inter-Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Inter-Bold";
+                          src: url('../fonts/Inter-Bold.otf') format("opentype");
+                        }
+                     
+a {
+
+  text-decoration: none; 
+  color: white; 
+
+}                        
+
+.bp1-menutablet {
+  width               : 100%;
+  min-width           : 767px;
+  height              : 100vh;
+  min-height          : 419px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(26, 26, 26, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-menutablet .bp1-zumgedenkendeskri {
+  background-color    : rgba(255,255,255,0.0);
+  height              : auto;
+  width               : 100%;
+  margin-top          : 31px;
+  position            : relative;
+  margin-bottom       : -31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 40.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 53.0px;
+}
+.bp1-menutablet .bp1-zumgedenkendeskri-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 79.22%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 10.43%;
+}
+.bp1-menutablet .bp1-zumgedenkendeskri-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-menutablet .bp1-zumgedenkendeskri .bp1-span1 {
+  
+}
+.bp1-menutablet .bp1-zumgedenkendeskri .bp1-span2 {
+  text-decoration     : underline;
+}
+.bp1-menutablet .bp1-zumgedenkendeskri .bp1-span3 {
+  
+}
+.bp1-menutablet .bp1-zumgedenkendeskri .bp1-span4 {
+  text-decoration     : underline;
+}
+.bp1-menutablet .bp1-zumgedenkendeskri .bp1-span5 {
+  
+}
+.bp1-menutablet .bp1-zumgedenkendeskri .bp1-span6 {
+  text-decoration     : underline;
+}
+.bp1-menutablet .bp1-zumgedenkendeskri .bp1-span7 {
+  
+}
+.bp1-menutablet .bp1-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 376px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-menutablet .bp1-group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 8.44%;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-menutablet .bp1-group3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-menutablet .bp1-group3 .bp1-danksagung {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.1px;
+  line-height         : 15.0px;
+}
+.bp1-menutablet .bp1-group3 .bp1-datenschutzerkl344rung {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.1px;
+  line-height         : 15.0px;
+}
+.bp1-menutablet .bp1-group3 .bp1-impressum {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 314px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.1px;
+  line-height         : 15.0px;
+}
+.bp1-menutablet .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 303px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-menutablet .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3.66%;
+  align-items         : center;
+  height              : 104px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-menutablet .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-menutablet .bp1-group2 .bp1-goetheschuledieburg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 89px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.1px;
+  line-height         : 8.0px;
+}
+.bp1-menutablet .bp1-group2 .bp1-goetheschuledieburg .bp1-span1 {
+  line-height         : 15.0px;
+}
+.bp1-menutablet .bp1-group2 .bp1-goetheschuledieburg .bp1-span2 {
+  font-size           : 8.0px;
+  letter-spacing      : -0.07px;
+  line-height         : 10.0px;
+}
+.bp1-menutablet .bp1-group2 .bp1-goetheschuledieburg .bp1-span3 {
+  line-height         : 15.0px;
+}
+.bp1-menutablet .bp1-group2 .bp1-gsdlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 59px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-menutablet .bp1-group2 .bp1-logounesco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 182px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-menutablet .bp1-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-menutablet .bp1-group .bp1-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(2.290610075deg);
+  opacity             : 1.0;
+}
+.bp1-menutablet .bp1-group .bp1-line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(2.290610075deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp3-menumobile {
+  width               : 100%;
+  min-width           : 333px;
+  height              : 100vh;
+  min-height          : 514px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(26, 26, 26, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-menumobile .bp3-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-menumobile .bp3-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 11.67%;
+  align-items         : center;
+  height              : 106px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-menumobile .bp3-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp3-menumobile .bp3-group2 .bp3-gsdlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 61.32%;
+  width               : 48.49%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-menumobile .bp3-group2 .bp3-logounesco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 82.08%;
+  width               : 39.76%;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-menumobile .bp3-group2 .bp3-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 95px;
+  height              : auto;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-menumobile .bp3-group2 .bp3-stackedgroup .bp3-goetheschuledieburg {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 9.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.08px;
+  line-height         : 7.0px;
+}
+.bp3-menumobile .bp3-group2 .bp3-stackedgroup .bp3-goetheschuledieburg .bp3-span1 {
+  line-height         : 11.0px;
+}
+.bp3-menumobile .bp3-group2 .bp3-stackedgroup .bp3-goetheschuledieburg .bp3-span2 {
+  font-size           : 7.0px;
+  letter-spacing      : -0.06px;
+  line-height         : 9.0px;
+}
+.bp3-menumobile .bp3-group2 .bp3-stackedgroup .bp3-goetheschuledieburg .bp3-span3 {
+  line-height         : 11.0px;
+}
+.bp3-menumobile .bp3-zumgedenkendeskri {
+  background-color    : rgba(255,255,255,0.0);
+  height              : auto;
+  width               : 100%;
+  margin-top          : 50px;
+  position            : relative;
+  margin-bottom       : -50px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 32.0px;
+}
+.bp3-menumobile .bp3-zumgedenkendeskri-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 77.78%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 11.11%;
+}
+.bp3-menumobile .bp3-zumgedenkendeskri-layout-container > * {
+  pointer-events      : auto;
+}
+.bp3-menumobile .bp3-zumgedenkendeskri .bp3-span1 {
+  
+}
+.bp3-menumobile .bp3-zumgedenkendeskri .bp3-span2 {
+  text-decoration     : underline;
+}
+.bp3-menumobile .bp3-zumgedenkendeskri .bp3-span3 {
+  
+}
+.bp3-menumobile .bp3-zumgedenkendeskri .bp3-span4 {
+  text-decoration     : underline;
+}
+.bp3-menumobile .bp3-zumgedenkendeskri .bp3-span5 {
+  
+}
+.bp3-menumobile .bp3-zumgedenkendeskri .bp3-span6 {
+  text-decoration     : underline;
+}
+.bp3-menumobile .bp3-zumgedenkendeskri .bp3-span7 {
+  
+}
+.bp3-menumobile .bp3-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 269px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp3-menumobile .bp3-group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 8.44%;
+  height              : 12px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-menumobile .bp3-group3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp3-menumobile .bp3-group3 .bp3-danksagung {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.08px;
+  line-height         : 12.0px;
+}
+.bp3-menumobile .bp3-group3 .bp3-datenschutzerkl344rung {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.08px;
+  line-height         : 12.0px;
+}
+.bp3-menumobile .bp3-group3 .bp3-impressum {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 217px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 10.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.08px;
+  line-height         : 12.0px;
+}
+.bp3-menumobile .bp3-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5.81%;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10.51%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp2-menu {
+  width               : 100%;
+  min-width           : 1208px;
+  height              : 100vh;
+  min-height          : 628px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(26, 26, 26, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-menu .bp2-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 376px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-menu .bp2-group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 8.44%;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-menu .bp2-group3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-menu .bp2-group3 .bp2-danksagung {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.1px;
+  line-height         : 15.0px;
+}
+.bp2-menu .bp2-group3 .bp2-datenschutzerkl344rung {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.1px;
+  line-height         : 15.0px;
+}
+.bp2-menu .bp2-group3 .bp2-impressum {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 314px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.1px;
+  line-height         : 15.0px;
+}
+.bp2-menu .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 303px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-menu .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3.66%;
+  align-items         : center;
+  height              : 104px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-menu .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-menu .bp2-group2 .bp2-goetheschuledieburg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 89px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.1px;
+  line-height         : 8.0px;
+}
+.bp2-menu .bp2-group2 .bp2-goetheschuledieburg .bp2-span1 {
+  line-height         : 15.0px;
+}
+.bp2-menu .bp2-group2 .bp2-goetheschuledieburg .bp2-span2 {
+  font-size           : 8.0px;
+  letter-spacing      : -0.07px;
+  line-height         : 10.0px;
+}
+.bp2-menu .bp2-group2 .bp2-goetheschuledieburg .bp2-span3 {
+  line-height         : 15.0px;
+}
+.bp2-menu .bp2-group2 .bp2-gsdlogo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 59px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-menu .bp2-group2 .bp2-logounesco {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 182px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-menu .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-menu .bp2-group .bp2-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(2.290610075deg);
+  opacity             : 1.0;
+}
+.bp2-menu .bp2-group .bp2-line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(2.290610075deg);
+  opacity             : 1.0;
+}
+.bp2-menu .bp2-zumgedenkendeskri {
+  background-color    : rgba(255,255,255,0.0);
+  height              : auto;
+  width               : 100%;
+  margin-top          : 31px;
+  position            : relative;
+  margin-bottom       : -31px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 54.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 72.0px;
+}
+.bp2-menu .bp2-zumgedenkendeskri-layout-container {
+  pointer-events      : none;
+  right               : 10.35%;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 79.22%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 10.39%;
+}
+.bp2-menu .bp2-zumgedenkendeskri-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-menu .bp2-zumgedenkendeskri .bp2-span1 {
+  
+}
+.bp2-menu .bp2-zumgedenkendeskri .bp2-span2 {
+  text-decoration     : underline;
+}
+.bp2-menu .bp2-zumgedenkendeskri .bp2-span3 {
+  
+}
+.bp2-menu .bp2-zumgedenkendeskri .bp2-span4 {
+  text-decoration     : underline;
+}
+.bp2-menu .bp2-zumgedenkendeskri .bp2-span5 {
+  
+}
+.bp2-menu .bp2-zumgedenkendeskri .bp2-span6 {
+  text-decoration     : underline;
+}
+.bp2-menu .bp2-zumgedenkendeskri .bp2-span7 {
+  
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+@media screen and (max-width: 766px) {
+  .bp3-menumobile {
+    display             : block;
+  }
+  .bp1-menutablet {
+    display             : none;
+  }
+  .bp2-menu {
+    display             : none;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1207px) {
+  .bp3-menumobile {
+    display             : none;
+  }
+  .bp1-menutablet {
+    display             : block;
+  }
+  .bp2-menu {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1208px) {
+  .bp3-menumobile {
+    display             : none;
+  }
+  .bp1-menutablet {
+    display             : none;
+  }
+  .bp2-menu {
+    display             : block;
+  }
+}

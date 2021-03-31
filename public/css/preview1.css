@@ -1,0 +1,1056 @@
+
+
+.bp2-preview {
+  width               : 100%;
+  min-width           : 1200px;
+  height              : 100vh;
+  min-height          : 10474px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-preview .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 15px;
+  width               : 15px;
+  position            : fixed;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-group .bp2-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(2.290610075deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-group .bp2-line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(2.290610075deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-microsoftteamsimage3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 565px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-microsoftteamsimage3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 5577px;
+  align-items         : center;
+  height              : 424px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-microsoftteamsimage3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-microsoftteamsimage2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 636px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-microsoftteamsimage2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4897px;
+  align-items         : center;
+  height              : 477px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-microsoftteamsimage2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-microsoftteamsimage {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 648px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-microsoftteamsimage-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2767px;
+  align-items         : center;
+  height              : 486px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-microsoftteamsimage-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-img9875 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 716px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-img9875-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4217px;
+  align-items         : center;
+  height              : 477px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-img9875-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-img9888 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 648px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-img9888-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2132px;
+  align-items         : center;
+  height              : 432px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-img9888-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-dsc0177 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 372px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-dsc0177-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3456px;
+  align-items         : center;
+  height              : 558px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-dsc0177-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-img9855 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 649px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-img9855-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1497px;
+  align-items         : center;
+  height              : 432px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-img9855-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-bild1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 969px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-bild1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8941px;
+  align-items         : center;
+  height              : 545px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-bild1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-bild2a {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 917px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-bild2a-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 6832px;
+  align-items         : center;
+  height              : 516px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-bild2a-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-bild3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 637px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-bild3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 6204px;
+  align-items         : center;
+  height              : 425px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-bild3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-bild4a {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 746px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-bild4a-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8179px;
+  align-items         : center;
+  height              : 559px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-bild4a-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-bild5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 637px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-bild5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 9689px;
+  align-items         : center;
+  height              : 637px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-bild5-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-bild6 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 755px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-preview .bp2-bild6-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 7551px;
+  align-items         : center;
+  height              : 425px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-bild6-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 648px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp2-preview .bp2-rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 862px;
+  align-items         : center;
+  height              : 432px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-preview .bp2-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 648px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp2-preview .bp2-rectangle1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 227px;
+  align-items         : center;
+  height              : 432px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-preview .bp2-rectangle1-layout-container > * {
+  pointer-events      : auto;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp1-previewmobile {
+  width               : 100%;
+  min-width           : 333px;
+  height              : 100vh;
+  min-height          : 3807px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-previewmobile .bp1-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 35px;
+  height              : 15px;
+  width               : 15px;
+  position            : fixed;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-group .bp1-line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(2.290610075deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-group .bp1-line1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(2.290610075deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-microsoftteamsimage3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 223px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-microsoftteamsimage3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2174px;
+  align-items         : center;
+  height              : 167px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-microsoftteamsimage3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-microsoftteamsimage2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 250px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-microsoftteamsimage2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1906px;
+  align-items         : center;
+  height              : 188px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-microsoftteamsimage2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-microsoftteamsimage {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 255px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-microsoftteamsimage-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1068px;
+  align-items         : center;
+  height              : 191px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-microsoftteamsimage-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-img9875 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 282px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-img9875-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1639px;
+  align-items         : center;
+  height              : 187px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-img9875-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-img9888 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 255px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-img9888-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 829px;
+  align-items         : center;
+  height              : 170px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-img9888-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-dsc0177 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 147px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-dsc0177-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1339px;
+  align-items         : center;
+  height              : 220px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-dsc0177-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-img9855 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -0px;
+  height              : 100%;
+  width               : 256px;
+  margin-right        : 0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-img9855-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 579px;
+  align-items         : center;
+  height              : 170px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-img9855-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-bild1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 301px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-bild1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3271px;
+  align-items         : center;
+  height              : 169px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-bild1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-bild2a {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 284px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-bild2a-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2616px;
+  align-items         : center;
+  height              : 161px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-bild2a-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-bild3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 197px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-bild3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2421px;
+  align-items         : center;
+  height              : 132px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-bild3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-bild4a {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 231px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-bild4a-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3034px;
+  align-items         : center;
+  height              : 173px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-bild4a-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-bild5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 197px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-bild5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3502px;
+  align-items         : center;
+  height              : 198px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-bild5-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-bild6 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 234px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-previewmobile .bp1-bild6-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2839px;
+  align-items         : center;
+  height              : 132px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-bild6-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 300px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp1-previewmobile .bp1-rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 310px;
+  align-items         : center;
+  height              : 200px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-rectangle-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-previewmobile .bp1-rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 284px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  overflow            : hidden;
+}
+.bp1-previewmobile .bp1-rectangle1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 83px;
+  align-items         : center;
+  height              : 189px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-previewmobile .bp1-rectangle1-layout-container > * {
+  pointer-events      : auto;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+@media screen and (max-width: 1199px) {
+  .bp1-previewmobile {
+    display             : block;
+  }
+  .bp2-preview {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bp1-previewmobile {
+    display             : none;
+  }
+  .bp2-preview {
+    display             : block;
+  }
+}

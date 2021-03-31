@@ -1,0 +1,5528 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400');
+
+@font-face {
+                          font-family: "Inter-Regular";
+                          src: url('../fonts/Inter-Regular.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Inter-LightBETA";
+                          src: url('../fonts/Inter-Light-BETA.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "PlayfairDisplay-Medium";
+                          src: url('../fonts/PlayfairDisplay-Medium.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Inter-Medium";
+                          src: url('../fonts/Inter-Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Inter-Bold";
+                          src: url('../fonts/Inter-Bold.otf') format("opentype");
+                        }
+                        
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+
+.contenttitle {
+
+  display: none;
+
+}
+
+.contentimage:hover~.contenttitle {
+
+  display: block;
+  
+}
+
+
+.bp2-schuelerbeitraege {
+  width               : 100%;
+  min-width           : 1208px;
+  height              : 100vh;
+  min-height          : 16511px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-schuelerbeitraege .bp2-oval {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 55px;
+  top                 : 55px;
+  height              : 12px;
+  width               : 12px;
+  position            : fixed;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-halfoval {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 55px;
+  top                 : 55px;
+  height              : 12px;
+  width               : 12px;
+  position            : fixed;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0.68%;
+  align-items         : center;
+  height              : 470px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group4-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 402px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group1 .bp2-zeichnungendofthewartbg10a {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 402px;
+  width               : 523px;
+  position            : absolute;
+  margin              : 0;
+  left                : 342px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group1 .bp2-endofwar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : auto;
+  width               : 1216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 152.0px;
+  color               : rgba(113, 88, 60, 1.0);
+  text-align          : center;
+  letter-spacing      : 8.34px;
+  line-height         : 202.0px;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 239px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 455px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group2 .bp2-u201eendofwaru201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group2 .bp2-u201eendofwaru201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group2 .bp2-u201eendofwaru201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group4 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group41 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group41-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1664px;
+  align-items         : center;
+  height              : 470px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group41-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 403px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group1 .bp2-nwkthumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 403px;
+  width               : 774px;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group1 .bp2-niewiederkrieg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 133px;
+  height              : auto;
+  width               : 1214px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 103.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 5.65px;
+  line-height         : 137.0px;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -8px;
+  height              : 100%;
+  width               : 253px;
+  margin-right        : 8px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 455px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group2 .bp2-u201eniewiederkriegu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group2 .bp2-u201eniewiederkriegu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group2 .bp2-u201eniewiederkriegu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group41 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group42 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group42-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 7059px;
+  align-items         : center;
+  height              : 460px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group42-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 384px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group1 .bp2-nwkahthumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 384px;
+  width               : 637px;
+  position            : absolute;
+  margin              : 0;
+  left                : 286px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group1 .bp2-niewiederkrieg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 123px;
+  height              : auto;
+  width               : 1214px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 103.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 5.65px;
+  line-height         : 137.0px;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -8px;
+  height              : 100%;
+  width               : 254px;
+  margin-right        : 8px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 445px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group2 .bp2-u201eniewiederkriegu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group2 .bp2-u201eniewiederkriegu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group2 .bp2-u201eniewiederkriegu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 126px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group42 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 223px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group43 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group43-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4136px;
+  align-items         : center;
+  height              : 470px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group43-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 400px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group1 .bp2-vdkindkthumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 400px;
+  width               : 768px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group1 .bp2-vordemkriegistna {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  width               : 1214px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 103.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 5.65px;
+  line-height         : 137.0px;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 352px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 455px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group2 .bp2-u201evordemkriegistn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group2 .bp2-u201evordemkriegistn .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group2 .bp2-u201evordemkriegistn .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 224px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group43 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 321px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group44 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group44-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 10682px;
+  align-items         : center;
+  height              : 470px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group44-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 401px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group1 .bp2-dsdt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 401px;
+  width               : 770px;
+  position            : absolute;
+  margin              : 0;
+  left                : 227px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group1 .bp2-diestilledestodes {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  width               : 1214px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 103.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 5.65px;
+  line-height         : 137.0px;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 16px;
+  height              : 100%;
+  width               : 319px;
+  margin-right        : -16px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 455px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group2 .bp2-u201ediestilledestode {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group2 .bp2-u201ediestilledestode .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group2 .bp2-u201ediestilledestode .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 176px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group44 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 288px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group45 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group45-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 14635px;
+  align-items         : center;
+  height              : 473px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group45-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 407px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group1 .bp2-lbthumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 407px;
+  width               : 781px;
+  position            : absolute;
+  margin              : 0;
+  left                : 214px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group1 .bp2-niewiederkrieg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 135px;
+  height              : auto;
+  width               : 1214px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 103.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 5.65px;
+  line-height         : 137.0px;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 20px;
+  height              : 100%;
+  width               : 312px;
+  margin-right        : -20px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 458px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group2 .bp2-u201eniewiederkriegu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group2 .bp2-u201eniewiederkriegu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group2 .bp2-u201eniewiederkriegu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group45 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 281px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group46 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group46-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 915px;
+  align-items         : center;
+  height              : 431px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group46-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 351px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group1 .bp2-bildkriegldg9b {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 351px;
+  width               : 671px;
+  position            : absolute;
+  margin              : 0;
+  left                : 269px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group1 .bp2-krieg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 74px;
+  height              : auto;
+  width               : 1216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 152.0px;
+  color               : rgba(167, 163, 153, 1.0);
+  text-align          : center;
+  letter-spacing      : 8.34px;
+  line-height         : 202.0px;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 6px;
+  height              : 100%;
+  width               : 223px;
+  margin-right        : -6px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 416px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group2 .bp2-u201ekriegu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group2 .bp2-u201ekriegu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group2 .bp2-u201ekriegu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group46 .bp2-group2 .bp2-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 197px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group47 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group47-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3321px;
+  align-items         : center;
+  height              : 435px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group47-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 367px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group1 .bp2-bildherzjswpu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 367px;
+  width               : 502px;
+  position            : absolute;
+  margin              : 0;
+  left                : 353px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group1 .bp2-herz {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : auto;
+  width               : 1216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 152.0px;
+  color               : rgba(58, 29, 100, 1.0);
+  text-align          : center;
+  letter-spacing      : 8.34px;
+  line-height         : 202.0px;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 6px;
+  height              : 100%;
+  width               : 222px;
+  margin-right        : -6px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 420px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group2 .bp2-u201eherzu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group2 .bp2-u201eherzu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group2 .bp2-u201eherzu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group47 .bp2-group2 .bp2-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group48 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group48-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2392px;
+  align-items         : center;
+  height              : 518px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group48-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 470px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group1 .bp2-zeichnungsoldatmzwpu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 470px;
+  width               : 684px;
+  position            : absolute;
+  margin              : 0;
+  left                : 262px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group1 .bp2-soldat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 134px;
+  height              : auto;
+  width               : 1216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 152.0px;
+  color               : rgba(145, 218, 205, 1.0);
+  text-align          : center;
+  letter-spacing      : 8.34px;
+  line-height         : 202.0px;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 4px;
+  height              : 100%;
+  width               : 226px;
+  margin-right        : -4px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 503px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group2 .bp2-u201esoldatu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group2 .bp2-u201esoldatu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group2 .bp2-u201esoldatu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group48 .bp2-group2 .bp2-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group49 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group49-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 5078px;
+  align-items         : center;
+  height              : 493px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group49-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 420px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group1 .bp2-zeichnungsoldatenahg10c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 420px;
+  width               : 797px;
+  position            : absolute;
+  margin              : 0;
+  left                : 206px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group1 .bp2-soldaten {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 109px;
+  height              : auto;
+  width               : 1216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 152.0px;
+  color               : rgba(131, 147, 207, 1.0);
+  text-align          : center;
+  letter-spacing      : 8.34px;
+  line-height         : 202.0px;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 1px;
+  height              : 100%;
+  width               : 232px;
+  margin-right        : -1px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 478px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group2 .bp2-u201esoldatenu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group2 .bp2-u201esoldatenu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group2 .bp2-u201esoldatenu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group49 .bp2-group2 .bp2-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 206px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group410 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group410-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 8026px;
+  align-items         : center;
+  height              : 772px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group410-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 703px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group1 .bp2-niewieder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 703px;
+  width               : 505px;
+  position            : absolute;
+  margin              : 0;
+  left                : 352px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group1 .bp2-niewieder1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 250px;
+  height              : auto;
+  width               : 1216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 152.0px;
+  color               : rgba(215, 182, 132, 1.0);
+  text-align          : center;
+  letter-spacing      : 8.34px;
+  line-height         : 202.0px;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -1px;
+  height              : 100%;
+  width               : 240px;
+  margin-right        : 1px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 757px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group2 .bp2-u201eniewiederu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group2 .bp2-u201eniewiederu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group2 .bp2-u201eniewiederu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group2 .bp2-sch374ler {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group410 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group411 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group411-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 9334px;
+  align-items         : center;
+  height              : 723px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group411-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 645px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group1 .bp2-zitatantwortatg9b {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 645px;
+  width               : 860px;
+  position            : absolute;
+  margin              : 0;
+  left                : 174px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group1 .bp2-antwort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 221px;
+  height              : auto;
+  width               : 1216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PlayfairDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 152.0px;
+  color               : rgba(183, 136, 29, 1.0);
+  text-align          : center;
+  letter-spacing      : 8.34px;
+  line-height         : 202.0px;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 2px;
+  height              : 100%;
+  width               : 230px;
+  margin-right        : -2px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 708px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group2 .bp2-u201eantwortu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group2 .bp2-u201eantwortu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group2 .bp2-u201eantwortu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group411 .bp2-group2 .bp2-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group412 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group412-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 13508px;
+  align-items         : center;
+  height              : 591px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group412-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 513px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group1 .bp2-bildcommemorationdaytbg10ajog10c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 513px;
+  width               : 512px;
+  position            : absolute;
+  margin              : 0;
+  left                : 348px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group1 .bp2-commemorationday {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 138px;
+  height              : auto;
+  width               : 1214px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PlayfairDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 109.0px;
+  color               : rgba(137, 34, 40, 1.0);
+  text-align          : center;
+  letter-spacing      : 5.98px;
+  line-height         : 145.0px;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -14px;
+  height              : 100%;
+  width               : 266px;
+  margin-right        : 14px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 576px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group2 .bp2-u201ecommemorationdayu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group2 .bp2-u201ecommemorationdayu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group2 .bp2-u201ecommemorationdayu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group412 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group413 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group413-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 11815px;
+  align-items         : center;
+  height              : 1008px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group413-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 937px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group1 .bp2-bildererdecstbg10a {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 937px;
+  width               : 670px;
+  position            : absolute;
+  margin              : 0;
+  left                : 269px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group1 .bp2-erde {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 367px;
+  height              : auto;
+  width               : 1216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PlayfairDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 152.0px;
+  color               : rgba(20, 36, 88, 1.0);
+  text-align          : center;
+  letter-spacing      : 8.34px;
+  line-height         : 202.0px;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 8px;
+  height              : 100%;
+  width               : 223px;
+  margin-right        : -8px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 993px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group2 .bp2-u201eerdeu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group2 .bp2-u201eerdeu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group2 .bp2-u201eerdeu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group2 .bp2-sch374lerinnen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group413 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group414 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group414-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 15744px;
+  align-items         : center;
+  height              : 654px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group414-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 580px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group1 .bp2-bildwaagefgg10a {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 580px;
+  width               : 733px;
+  position            : absolute;
+  margin              : 0;
+  left                : 238px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group1 .bp2-waage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 189px;
+  height              : auto;
+  width               : 1216px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PlayfairDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 152.0px;
+  color               : rgba(65, 65, 65, 1.0);
+  text-align          : center;
+  letter-spacing      : 8.34px;
+  line-height         : 202.0px;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 4px;
+  height              : 100%;
+  width               : 229px;
+  margin-right        : -4px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 639px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group2 .bp2-u201ewaageu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group2 .bp2-u201ewaageu201d .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group2 .bp2-u201ewaageu201d .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group2 .bp2-sch374ler {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group414 .bp2-group2 .bp2-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group415 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group415-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 5947px;
+  align-items         : center;
+  height              : 615px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group415-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 564px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group1 .bp2-bildrememberingthosewhofoughtforuscpg9b {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 564px;
+  width               : 798px;
+  position            : absolute;
+  margin              : 0;
+  left                : 205px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group1 .bp2-rememberingwhofoug {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 145px;
+  height              : auto;
+  width               : 1214px;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 103.0px;
+  color               : rgba(144, 125, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 5.65px;
+  line-height         : 137.0px;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 0px;
+  height              : 100%;
+  width               : 339px;
+  margin-right        : -0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 600px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group2 .bp2-u201erememberingwhofou {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group2 .bp2-u201erememberingwhofou .bp2-span1 {
+  
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group2 .bp2-u201erememberingwhofou .bp2-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group2 .bp2-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 213px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-group415 .bp2-group2 .bp2-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 313px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-schuelerbeitraege .bp2-a75jahrekriegsende {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : auto;
+  transform           : rotate(-90deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-schuelerbeitraege .bp2-a75jahrekriegsende-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : auto;
+  justify-content     : center;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : -35px;
+}
+.bp2-schuelerbeitraege .bp2-a75jahrekriegsende-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 253px;
+  position            : relative;
+  width               : 100%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group3-layout-container {
+  pointer-events      : none;
+  right               : 52px;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 17px;
+  justify-content     : center;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+}
+.bp2-schuelerbeitraege .bp2-group3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-schuelerbeitraege .bp2-group3 .bp2-datenschutz {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 64px;
+  height              : auto;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : -62px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-schuelerbeitraege .bp2-group3 .bp2-impressum {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 174px;
+  height              : auto;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : -62px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-schuelerbeitraege .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 10px;
+  width               : 17px;
+  position            : fixed;
+  margin              : 0;
+  left                : 4.55%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group .bp2-rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-schuelerbeitraege .bp2-group .bp2-rectangle1 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 8px;
+  height              : 2px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp1-schuelereitraegemobile {
+  width               : 100%;
+  min-width           : 333px;
+  height              : 100vh;
+  min-height          : 7405px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-schuelereitraegemobile .bp1-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 121px;
+  align-items         : center;
+  height              : 286px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group4-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 261px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group1 .bp1-zeichnungendofthewartbg10a {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 195px;
+  width               : 254px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group1 .bp1-endofwar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(113, 88, 60, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 239px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 271px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group2 .bp1-u201eendofwaru201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group2 .bp1-u201eendofwaru201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group2 .bp1-u201eendofwaru201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group4 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group41 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group41-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 596px;
+  align-items         : center;
+  height              : 238px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group41-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 212px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group1 .bp1-bildkriegldg9b {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 151px;
+  width               : 289px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group1 .bp1-krieg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 166px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(167, 163, 153, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 0px;
+  height              : 100%;
+  width               : 223px;
+  margin-right        : -0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 223px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group2 .bp1-u201ekriegu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group2 .bp1-u201ekriegu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group2 .bp1-u201ekriegu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 97px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group41 .bp1-group2 .bp1-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 197px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group42 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group42-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 961px;
+  align-items         : center;
+  height              : 253px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group42-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 221px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group1 .bp1-nwkthumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 152px;
+  width               : 292px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group1 .bp1-niewiederkrieg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 183px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 29.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.59px;
+  line-height         : 38.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -8px;
+  height              : 100%;
+  width               : 253px;
+  margin-right        : 8px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 238px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group2 .bp1-u201eniewiederkriegu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group2 .bp1-u201eniewiederkriegu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group2 .bp1-u201eniewiederkriegu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 125px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group42 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 222px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group43 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group43-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1341px;
+  align-items         : center;
+  height              : 284px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group43-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 262px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group1 .bp1-zeichnungsoldatmzwpu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 193px;
+  width               : 281px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group1 .bp1-soldat {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 216px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(145, 218, 205, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 4px;
+  height              : 100%;
+  width               : 226px;
+  margin-right        : -4px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 269px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group2 .bp1-u201esoldatu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group2 .bp1-u201esoldatu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group2 .bp1-u201esoldatu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 100px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group43 .bp1-group2 .bp1-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group44 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group44-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1752px;
+  align-items         : center;
+  height              : 294px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group44-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 272px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group1 .bp1-bildherzjswpu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 210px;
+  width               : 287px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group1 .bp1-herz {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 226px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(58, 29, 100, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 6px;
+  height              : 100%;
+  width               : 222px;
+  margin-right        : -6px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 279px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group2 .bp1-u201eherzu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group2 .bp1-u201eherzu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group2 .bp1-u201eherzu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group44 .bp1-group2 .bp1-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group45 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group45-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2173px;
+  align-items         : center;
+  height              : 339px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group45-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 315px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group1 .bp1-vdkindkthumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 156px;
+  width               : 300px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group1 .bp1-vordemkriegistna {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 177px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 305px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 324px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group2 .bp1-u201evordemkriegistn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group2 .bp1-u201evordemkriegistn .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group2 .bp1-u201evordemkriegistn .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 200px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group45 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 274px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group46 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group46-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2639px;
+  align-items         : center;
+  height              : 233px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group46-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 215px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group1 .bp1-zeichnungsoldatenahg10c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 149px;
+  width               : 283px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group1 .bp1-soldaten {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 169px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(131, 147, 207, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 1px;
+  height              : 100%;
+  width               : 232px;
+  margin-right        : -1px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 218px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group2 .bp1-u201esoldatenu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group2 .bp1-u201esoldatenu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group2 .bp1-u201esoldatenu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 106px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group46 .bp1-group2 .bp1-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 206px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group47 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group47-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2999px;
+  align-items         : center;
+  height              : 391px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group47-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group47 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 368px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group47 .bp1-group1 .bp1-bildrememberingthosewhofoughtforuscpg9b {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 194px;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group47 .bp1-group1 .bp1-rememberingwhofoug {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 230px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(144, 125, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group47 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 376px;
+  height              : 15px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group47 .bp1-group2 .bp1-u201erememberingwhofou {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group47 .bp1-group2 .bp1-u201erememberingwhofou .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group47 .bp1-group2 .bp1-u201erememberingwhofou .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group47 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group47 .bp1-group2 .bp1-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 286px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group48 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group48-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3517px;
+  align-items         : center;
+  height              : 318px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group48-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 297px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group1 .bp1-nwkahthumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 182px;
+  width               : 302px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group1 .bp1-niewiederkrieg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 205px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -8px;
+  height              : 100%;
+  width               : 254px;
+  margin-right        : 8px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 303px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group2 .bp1-u201eniewiederkriegu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group2 .bp1-u201eniewiederkriegu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group2 .bp1-u201eniewiederkriegu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 126px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group48 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 223px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group49 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group49-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3962px;
+  align-items         : center;
+  height              : 454px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group49-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 432px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group1 .bp1-niewieder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 366px;
+  width               : 263px;
+  position            : absolute;
+  margin              : 0;
+  left                : 35px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group1 .bp1-niewieder1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 386px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(215, 182, 132, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -1px;
+  height              : 100%;
+  width               : 240px;
+  margin-right        : 1px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 439px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group2 .bp1-u201eniewiederu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group2 .bp1-u201eniewiederu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group2 .bp1-u201eniewiederu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group2 .bp1-sch374ler {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 116px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group49 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 209px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group410 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group410-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4543px;
+  align-items         : center;
+  height              : 282px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group410-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 1208px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 267px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group1 .bp1-zitatantwortatg9b {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 202px;
+  width               : 269px;
+  position            : absolute;
+  margin              : 0;
+  left                : 470px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group1 .bp1-antwort {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 221px;
+  height              : auto;
+  width               : 1210px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PlayfairDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 34.0px;
+  color               : rgba(183, 136, 29, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 2px;
+  height              : 100%;
+  width               : 230px;
+  margin-right        : -2px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 267px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group2 .bp1-u201eantwortu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group2 .bp1-u201eantwortu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group2 .bp1-u201eantwortu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group410 .bp1-group2 .bp1-jg9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 204px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group411 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group411-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 4952px;
+  align-items         : center;
+  height              : 285px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group411-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 265px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group1 .bp1-dsdt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 143px;
+  width               : 275px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group1 .bp1-diestilledestodes {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 173px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 270px;
+  height              : 15px;
+  width               : 284px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group2 .bp1-u201ediestilledestode {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group2 .bp1-u201ediestilledestode .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group2 .bp1-u201ediestilledestode .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group411 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 253px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group412 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group412-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 5368px;
+  align-items         : center;
+  height              : 456px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group412-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 438px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group1 .bp1-bildererdecstbg10a {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 363px;
+  width               : 260px;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group1 .bp1-erde {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 392px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PlayfairDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 34.0px;
+  color               : rgba(20, 36, 88, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 223px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 441px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group2 .bp1-u201eerdeu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group2 .bp1-u201eerdeu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group2 .bp1-u201eerdeu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group2 .bp1-sch374lerinnen {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group412 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group413 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group413-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 5952px;
+  align-items         : center;
+  height              : 439px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group413-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 419px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group1 .bp1-bildcommemorationdaytbg10ajog10c {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 290px;
+  width               : 289px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group1 .bp1-commemorationday {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 331px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PlayfairDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 33.0px;
+  color               : rgba(137, 34, 40, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.81px;
+  line-height         : 44.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 0px;
+  height              : 100%;
+  width               : 266px;
+  margin-right        : -0px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 424px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group2 .bp1-u201ecommemorationdayu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group2 .bp1-u201ecommemorationdayu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group2 .bp1-u201ecommemorationdayu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 138px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group413 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 235px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group414 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group414-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 6519px;
+  align-items         : center;
+  height              : 292px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group414-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group414 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 270px;
+  width               : 333px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group414 .bp1-group1 .bp1-lbthumbnail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 146px;
+  width               : 280px;
+  position            : absolute;
+  margin              : 0;
+  left                : 27px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group414 .bp1-group1 .bp1-niewiederkrieg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 178px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Playfair Display", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 34.0px;
+  color               : rgba(116, 116, 116, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group414 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 277px;
+  height              : 15px;
+  width               : 312px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group414 .bp1-group2 .bp1-u201eniewiederkriegu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group414 .bp1-group2 .bp1-u201eniewiederkriegu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group414 .bp1-group2 .bp1-u201eniewiederkriegu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group414 .bp1-group2 .bp1-sch374lerin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group414 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 281px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group415 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group415-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 6939px;
+  align-items         : center;
+  height              : 289px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group415-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group1 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 333px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 274px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group1-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group1 .bp1-bildwaagefgg10a {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 218px;
+  width               : 276px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group1 .bp1-waage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 228px;
+  height              : auto;
+  width               : 335px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "PlayfairDisplay-Medium", Helvetica, Arial, serif;
+  font-size           : 34.0px;
+  color               : rgba(65, 65, 65, 1.0);
+  text-align          : center;
+  letter-spacing      : 1.87px;
+  line-height         : 46.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 4px;
+  height              : 100%;
+  width               : 229px;
+  margin-right        : -4px;
+  position            : relative;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 274px;
+  align-items         : center;
+  height              : 15px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group2 .bp1-u201ewaageu201d {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group2 .bp1-u201ewaageu201d .bp1-span1 {
+  
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group2 .bp1-u201ewaageu201d .bp1-span2 {
+  letter-spacing      : -0.65px;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group2 .bp1-sch374ler {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-group415 .bp1-group2 .bp1-jg10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 198px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-datenschutz {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 40px;
+  height              : auto;
+  width               : auto;
+  margin-right        : -40px;
+  position            : relative;
+  transform           : rotate(-360deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.bp1-schuelereitraegemobile .bp1-datenschutz-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 20px;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-datenschutz-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-impressum {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -40px;
+  height              : auto;
+  width               : auto;
+  margin-right        : 40px;
+  position            : relative;
+  transform           : rotate(-360deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.bp1-schuelereitraegemobile .bp1-impressum-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 20px;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-impressum-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-schuelereitraegemobile .bp1-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 65px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 88.29%;
+  top                 : 28px;
+  height              : 8px;
+  width               : 15px;
+  position            : fixed;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group .bp1-rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-group .bp1-rectangle1 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 7px;
+  height              : 1px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-schuelereitraegemobile .bp1-a75jahrekriegsende {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : auto;
+  transform           : rotate(-360deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-schuelereitraegemobile .bp1-a75jahrekriegsende-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 25px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-schuelereitraegemobile .bp1-a75jahrekriegsende-layout-container > * {
+  pointer-events      : auto;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+@media screen and (max-width: 1207px) {
+  .bp1-schuelereitraegemobile {
+    display             : block;
+  }
+  .bp2-schuelerbeitraege {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1208px) {
+  .bp1-schuelereitraegemobile {
+    display             : none;
+  }
+  .bp2-schuelerbeitraege {
+    display             : block;
+  }
+}

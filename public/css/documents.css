@@ -1,0 +1,1333 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400');
+
+@font-face {
+                          font-family: "Inter-Regular";
+                          src: url('../fonts/Inter-Regular.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Inter-LightBETA";
+                          src: url('../fonts/Inter-Light-BETA.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "PlayfairDisplay-Medium";
+                          src: url('../fonts/PlayfairDisplay-Medium.ttf') format("truetype");
+                        }
+                        @font-face {
+                          font-family: "Inter-Medium";
+                          src: url('../fonts/Inter-Medium.otf') format("opentype");
+                        }
+                        @font-face {
+                          font-family: "Inter-Bold";
+                          src: url('../fonts/Inter-Bold.otf') format("opentype");
+                        }
+
+  a {
+
+    text-decoration: none; 
+  color: white; 
+
+  }
+  .blacklink {
+
+    text-decoration: none; 
+    color: black; 
+  
+  }
+                        
+.anima-overlay {
+  position            : absolute;
+  opacity             : 0;
+  display             : none;
+  top                 : 0;
+  width               : 100%;
+  height              : 100%;
+}
+.bp1-documentsmobile {
+  width               : 100%;
+  min-width           : 333px;
+  height              : 100vh;
+  min-height          : 2942px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-documentsmobile .bp1-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 233px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 180px;
+  align-items         : center;
+  height              : 378px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-group2 .bp1-konvikt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 364px;
+  height              : auto;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-documentsmobile .bp1-group2 .bp1-frontpage1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 329px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 233px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 631px;
+  align-items         : center;
+  height              : 393px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-group3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-group3 .bp1-stjosephshausink {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 364px;
+  height              : auto;
+  width               : 127px;
+  position            : absolute;
+  margin              : 0;
+  left                : 56px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-documentsmobile .bp1-group3 .bp1-frontpage2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 329px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 233px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1082px;
+  align-items         : center;
+  height              : 394px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-group4-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-group4 .bp1-marienschuleindieb {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 365px;
+  height              : auto;
+  width               : 94px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-documentsmobile .bp1-group4 .bp1-frontpage3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 330px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 233px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1533px;
+  align-items         : center;
+  height              : 380px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-group5-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-group5 .bp1-soldatenfriedhof {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 366px;
+  height              : auto;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-documentsmobile .bp1-group5 .bp1-frontpage4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 330px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 233px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group6-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1985px;
+  align-items         : center;
+  height              : 394px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-group6-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-group6 .bp1-dokumenteundtagebu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 365px;
+  height              : auto;
+  width               : 136px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-documentsmobile .bp1-group6 .bp1-frontpage5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 330px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 233px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group7-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2437px;
+  align-items         : center;
+  height              : 379px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-group7-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-group7 .bp1-kriegsendeinklein {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 365px;
+  height              : auto;
+  width               : 230px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp1-documentsmobile .bp1-group7 .bp1-frontpage6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 330px;
+  width               : 233px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-datenschutz {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : 40px;
+  height              : auto;
+  width               : auto;
+  margin-right        : -40px;
+  position            : relative;
+  transform           : rotate(-360deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.bp1-documentsmobile .bp1-datenschutz-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 20px;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-datenschutz-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-impressum {
+  background-color    : rgba(255,255,255,0.0);
+  margin-left         : -40px;
+  height              : auto;
+  width               : auto;
+  margin-right        : 40px;
+  position            : relative;
+  transform           : rotate(-360deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 11.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 14.0px;
+}
+.bp1-documentsmobile .bp1-impressum-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  align-items         : center;
+  bottom              : 20px;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-impressum-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-rectangle {
+  background-color    : rgba(255, 255, 255, 1.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 65px;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 88.29%;
+  top                 : 28px;
+  height              : 8px;
+  width               : 15px;
+  position            : fixed;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group .bp1-rectangle2 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 1px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group .bp1-rectangle1 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 7px;
+  height              : 1px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-a75jahrekriegsende {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : auto;
+  transform           : rotate(-360deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-documentsmobile .bp1-a75jahrekriegsende-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 25px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-a75jahrekriegsende-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-group9 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 128px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp1-documentsmobile .bp1-group9-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 74px;
+  align-items         : center;
+  height              : 38px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-documentsmobile .bp1-group9-layout-container > * {
+  pointer-events      : auto;
+}
+.bp1-documentsmobile .bp1-group9 .bp1-bilder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 9.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 11.0px;
+  text-decoration     : underline;
+}
+.bp1-documentsmobile .bp1-group9 .bp1-dokumenteinhaltsver {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 27px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 9.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 11.0px;
+  text-decoration     : underline;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+.bp2-documents {
+  width               : 100%;
+  min-width           : 1208px;
+  height              : 100vh;
+  min-height          : 3663px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+  opacity             : 1.0;
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-documents .bp2-oval {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 55px;
+  top                 : 55px;
+  height              : 12px;
+  width               : 12px;
+  position            : fixed;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-halfoval {
+  background-color    : rgba(255,255,255,0.0);
+  right               : 55px;
+  top                 : 55px;
+  height              : 12px;
+  width               : 12px;
+  position            : fixed;
+  margin              : 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-a75jahrekriegsende {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  width               : auto;
+  transform           : rotate(-90deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-documents .bp2-a75jahrekriegsende-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : auto;
+  justify-content     : center;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+  left                : -35px;
+}
+.bp2-documents .bp2-a75jahrekriegsende-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-documents .bp2-group9 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 260px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group9-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 55px;
+  align-items         : center;
+  height              : 16px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-documents .bp2-group9-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-documents .bp2-group9 .bp2-dokumenteinhaltsver {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+  text-decoration     : underline;
+}
+.bp2-documents .bp2-group9 .bp2-bilder {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 224px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+  text-decoration     : underline;
+}
+.bp2-documents .bp2-group8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 55px;
+  height              : 10px;
+  width               : 17px;
+  position            : fixed;
+  margin              : 0;
+  left                : 55px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group8 .bp2-rectangle {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group8 .bp2-rectangle1 {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 8px;
+  height              : 2px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 253px;
+  position            : relative;
+  width               : 100%;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group-layout-container {
+  pointer-events      : none;
+  right               : 52px;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 17px;
+  justify-content     : center;
+  position            : fixed;
+  margin              : 0;
+  display             : flex;
+}
+.bp2-documents .bp2-group-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-documents .bp2-group .bp2-datenschutz {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : auto;
+  width               : 138px;
+  position            : absolute;
+  margin              : 0;
+  left                : -60px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-documents .bp2-group .bp2-impressum {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 187px;
+  height              : auto;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : -48px;
+  transform           : rotate(-270deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 13.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.bp2-documents .bp2-group2 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 157px;
+  align-items         : center;
+  height              : 480px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-documents .bp2-group2-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-documents .bp2-group2 .bp2-konvikt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 466px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 133px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-documents .bp2-group2 .bp2-frontpage1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 419px;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group3 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 732px;
+  align-items         : center;
+  height              : 481px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-documents .bp2-group3-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-documents .bp2-group3 .bp2-stjosephshausink {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 466px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-documents .bp2-group3 .bp2-frontpage2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 419px;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group4 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1307px;
+  align-items         : center;
+  height              : 482px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-documents .bp2-group4-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-documents .bp2-group4 .bp2-marienschuleindieb {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 467px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-documents .bp2-group4 .bp2-frontpage3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 420px;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group5 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1883px;
+  align-items         : center;
+  height              : 481px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-documents .bp2-group5-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-documents .bp2-group5 .bp2-soldatenfriedhof {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 467px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-documents .bp2-group5 .bp2-frontpage4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 420px;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group6 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group6-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2459px;
+  align-items         : center;
+  height              : 482px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-documents .bp2-group6-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-documents .bp2-group6 .bp2-dokumenteundtagebu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 467px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 64px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-documents .bp2-group6 .bp2-frontpage5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 420px;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group7 {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : 100%;
+  width               : 297px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.bp2-documents .bp2-group7-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3035px;
+  align-items         : center;
+  height              : 482px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-documents .bp2-group7-layout-container > * {
+  pointer-events      : auto;
+}
+.bp2-documents .bp2-group7 .bp2-kriegsendeinklein {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 467px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Inter-LightBETA", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.65px;
+  line-height         : 15.0px;
+}
+.bp2-documents .bp2-group7 .bp2-frontpage6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 420px;
+  width               : 297px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
+@media screen and (max-width: 1207px) {
+  .bp1-documentsmobile {
+    display             : block;
+  }
+  .bp2-documents {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1208px) {
+  .bp1-documentsmobile {
+    display             : none;
+  }
+  .bp2-documents {
+    display             : block;
+  }
+}
